@@ -1,0 +1,47 @@
+/* namespace: meetup-venues */
+
+.meetup-venues-box {
+    border: 1px solid #E5E5E5;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.meetup-venues-box-header {
+    background: #E5E5E5;
+    padding: 10px;
+    border-bottom: #DFDFDF;
+    margin: 0px;
+}
+
+.meetup-venues-box-body {
+    padding: 10px;
+}
+
+.meetup-venues-row {
+    clear: both;
+}
+
+.meetup-venues-col-left {
+
+}
+
+.meetup-venues-col-right {
+
+}
+
+@media (min-width: 1120px){
+    .meetup-venues-col-left {
+        float: left;
+        width: 280px;
+    }
+
+    .meetup-venues-col-right {
+        overflow:hidden;
+        padding-left: 30px;
+    }
+    
+    .meetup-venues-col-right .meetup-venues-box {
+    }
+}

@@ -1,0 +1,6 @@
+{{#each results}}
+<div class='meetup_venue_events_sidebar_list_item'>
+    <div class='meetup_venue_event_title'><a href='{{event_url}}' target='_blank'>{{name}}</a></div>
+    <div class='meetup_venue_event_time'>{{date_format time utc_offset}}</div>
+</div>
+{{/each}}
